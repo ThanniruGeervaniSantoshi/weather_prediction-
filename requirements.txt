@@ -1,0 +1,7 @@
+streamlit
+joblib
+pandas
+numpy
+base64
+matplotlib
+scikit-learn==1.2.1
