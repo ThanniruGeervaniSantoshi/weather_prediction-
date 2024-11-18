@@ -6,11 +6,11 @@ from datetime import datetime
 import base64
 
 # Load pre-trained models for Guntur and Mangalagiri
-guntur_temp_model = joblib.load(r'E:\models\trained_models\guntur_temperature.joblib')
-guntur_humidity_model = joblib.load(r'E:\models\trained_models\guntur_humidity.joblib')
+guntur_temp_model = joblib.load('trained_models\guntur_temperature.joblib')
+guntur_humidity_model = joblib.load('trained_models\guntur_humidity.joblib')
 
-mangalagiri_temp_model = joblib.load(r'E:\models\trained_models\Mangalagiri_temperature.joblib')
-mangalagiri_humidity_model = joblib.load(r'E:\models\trained_models\Mangalagiri_humidity.joblib')
+mangalagiri_temp_model = joblib.load('trained_models\Mangalagiri_temperature.joblib')
+mangalagiri_humidity_model = joblib.load('trained_models\Mangalagiri_humidity.joblib')
 
 
 # Sample static data for Guntur and Mangalagiri (for demonstration purposes)
